@@ -1,0 +1,72 @@
+body {
+    background-color: #ffffff;
+}
+.card{
+    background:white;
+    margin: 5px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 5 px 10px rgba(0,0,0,0.1);
+}
+.grid{
+    display: flex;
+    gap: 15px;
+}
+.box{
+    background-color:#DAA5AD;
+    padding: 40 px;text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    flex: 1;
+}
+.header{
+    background-color: #DAA5AD;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+.menu ul{
+    display: flex;
+    background-color: #DAA5AD;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.menu a{
+    padding: 15px 25px;
+    display: block;
+    color: #DAA5AD;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.menu a:hover{
+    background-color:#DAA5AD; 
+}
+
+.button {
+    background-color: #ffffff;
+    padding: 4px;
+    border-radius: 8px;
+}
+.btn-scopri {
+  background-color: #bf6f7f; /* rosa antico */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-scopri:hover {
+  background-color: #c48f9c; /* leggermente più scuro */
+  transform: scale(1.05);
+}
+
+.btn-scopri:active {
+  transform: scale(0.90);
+}

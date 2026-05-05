@@ -1,0 +1,81 @@
+.font{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+.header{
+    background-color: rgb(4, 4, 105);
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+.card{
+    background-color: #DAA5AD;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow:0 5px 10px rgb(255, 255, 255);
+}
+
+.grid{
+    display:flex; 
+    gap: 15px;
+}
+
+.box{
+    background-color: #DAA5AD;
+    padding: 20px;
+    text-align:center;
+    border-radius: 8px;
+    font-weight: bold;
+    flex:1;
+}
+.header{
+    background-color: #DAA5AD;
+    color:#ffffff;
+    text-align: center;
+    padding: 20px;
+
+}
+.font1{
+text-align:justify;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Contenitore audio moderno */
+.audio-player {
+    background: linear-gradient(135deg, #DAA5AD, #c0848f);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.audio-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Player audio */
+.audio-player audio {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Effetto hover */
+.audio-player:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
